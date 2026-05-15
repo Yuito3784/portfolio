@@ -285,14 +285,28 @@ export const biography: BiographySection[] = [
       {
         src: "/images/biography/career-1.jpg",
         alt: "社会人（オフィスで開発）",
+        objectPositionClassName: "object-top",
       },
-      { src: "/images/biography/career-2.jpg", alt: "社会人（打ち合わせ）" },
+      {
+        src: "/images/biography/career-2.jpg",
+        alt: "社会人（打ち合わせ）",
+        objectPositionClassName: "object-top",
+      },
       {
         src: "/images/biography/career-3.jpg",
         alt: "社会人（仕事終わりの一枚）",
+        objectPositionClassName: "object-top",
       },
-      { src: "/images/biography/career-4.jpg", alt: "趣味（ポーカー）" },
-      { src: "/images/biography/career-5.jpg", alt: "趣味（ポーカーの勉強）" },
+      {
+        src: "/images/biography/career-4.jpg",
+        alt: "趣味（ポーカー）",
+        objectPositionClassName: "object-top",
+      },
+      {
+        src: "/images/biography/career-5.jpg",
+        alt: "趣味（ポーカーの勉強）",
+        objectPositionClassName: "object-top",
+      },
       {
         src: "/images/biography/career-6.jpg",
         alt: "資格（基本情報技術者試験 合格証書）",
@@ -319,6 +333,7 @@ export const hobbies = [
     items: [
       "ケルト音楽が好き（作業中もよく流します）",
       "落ち着くメロディや民族楽器の音が好きです",
+      "アップテンポなクラブミュージック / ハードコア系もよく聴きます",
       "作曲（DTM）",
     ],
   },
@@ -346,6 +361,21 @@ export const hobbies = [
       "主に NLH（テキサス・ホールデム）をプレイ",
       "座学（確率・期待値・ポットオッズ）",
       "ハンドレビューで振り返り",
+    ],
+  },
+  {
+    category: "お酒",
+    items: [
+      "気分転換や交流のときにたまに飲みます",
+      "ビール・ハイボール・日本酒あたりが好みです",
+    ],
+  },
+  {
+    category: "作業環境",
+    items: [
+      "集中するときは照明と席の位置を整えてから始めることが多いです",
+      "BGMはケルトやアップテンポ寄りを流しつつ、タスクに合わせて切り替えます",
+      "長時間ディスプレイのときは1時間に1回立つことを意識しています",
     ],
   },
   {

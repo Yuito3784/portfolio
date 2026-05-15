@@ -53,7 +53,7 @@ export function PhotoCard({
         fill
         className={[
           objectFitClassName ?? "object-cover",
-          objectPositionClassName ?? "object-top",
+          objectPositionClassName ?? "object-center",
           imageClassName ?? "",
         ].join(" ")}
         style={{ transition: "transform 0.6s cubic-bezier(0.23,1,0.32,1)" }}
